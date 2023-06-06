@@ -185,7 +185,8 @@ html {
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit; }
+          box-sizing: inherit;
+           }
 
 audio,
 canvas,
@@ -3060,12 +3061,21 @@ Solution: stackoverflow.com/questions/34250282/flexbox-safari-bug-flex-wrap
 =========================================== */
 /* -- Disable elastic scrolling/bounce:
 webslides.js will add .ws-ready automatically. Don't worry :) -- */
+#slide2{
+
+  background-color: #151A20;
+}
+#slide3{
+
+  background-color: #151A20;
+}
 body {
   background-color: #f7f9fb;
-  color: #333; }
+  color: #ebebeb; }
   /*Effects the text on the title page*/
 body .aligncenter{
   color: #c0bfca;
+  background-color: rgba(255, 4, 4, 0);
 }
 :focus {
   -webkit-box-shadow: 0 0 2px #96bbee;
@@ -3458,7 +3468,19 @@ Gallery li+.overlay+image
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.03); }
 
 .gallery li figcaption {
-  background-color: #fff; }
+  background-color: #212529; 
+color: #f7f9fb;
+border-radius: 25px;
+border: 3px solid #373c41b4;
+padding: 20px;
+}
+
+figure{
+
+  border-radius: 25px;
+  border: 4px solid #212529;
+  padding: 20px;
+}
 
 .flexblock.gallery li:hover {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.08);
@@ -3477,7 +3499,7 @@ Gallery li+.overlay+image
 /*Arrow */
 .gallery li figcaption:before {
   border: 0.8rem solid #000;
-  border-color: transparent transparent #fff #fff; }
+  border-color: transparent transparent #ffffff00 #ffffff00; }
 
 /*=========================================
 Plans / Pricing
