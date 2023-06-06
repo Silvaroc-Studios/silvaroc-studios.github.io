@@ -3062,8 +3062,11 @@ Solution: stackoverflow.com/questions/34250282/flexbox-safari-bug-flex-wrap
 webslides.js will add .ws-ready automatically. Don't worry :) -- */
 body {
   background-color: #f7f9fb;
-  color: #333; }
+  color: #1500ff; }
+.alligncenter{
 
+  color: #1500ff;
+}
 :focus {
   -webkit-box-shadow: 0 0 2px #96bbee;
           box-shadow: 0 0 2px #96bbee; }
